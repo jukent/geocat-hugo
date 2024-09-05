@@ -1,21 +1,12 @@
 enable  : true
-title   : VAST Staff
+title   : GeoCAT Staff
 members  :
 
-  - name        : NIHANTH CHERUKURU
-    designation : Project Scientist
-    ncaruname   : ncheruku
-    githubuname : NihanthCW
 
   - name        : PHILIP CHMIELOWIEC
     designation : Software Engineer
     ncaruname   : philipc
     githubuname : philipc2
-
-  - name        : JOHN CLYNE
-    designation : Senior Program Manager
-    ncaruname   : clyne
-    githubuname : clyne
 
   - name        : ORHAN EROGLU
     designation : Software Engineer
@@ -27,30 +18,10 @@ members  :
     ncaruname   : katelynw
     githubuname : kafitzgerald
 
-  - name        : STANISLAW 'Stas' JAROSZYNSKI
-    designation : Software Engineer
-    ncaruname   : stasj
-    githubuname : StasJ
-
   - name        : JULIA KENT
     designation : Software Engineer
     ncaruname   : jkent
     githubuname : jukent
-
-  - name        : SAMUEL LI
-    designation : Project Scientist
-    ncaruname   : shaomeng
-    githubuname : shaomeng
-
-  - name        : SCOTT PEARSE
-    designation : Software Engineer
-    ncaruname   : pearse
-    githubuname : sgpearse
-
-  - name        : MATT REHME
-    designation : Software Engineer
-    ncaruname   : mrehme
-    githubuname : MattRehme
 
   - name        : CORA Y. SCHNECK
     designation : Software Engineer
@@ -61,8 +32,3 @@ members  :
     designation : Software Engineer
     ncaruname   : anissaz
     githubuname : anissa111
-
-  - name        : TAMMY ZHANG
-    designation : Front-End Web Developer
-    ncaruname   : tazhang
-    githubuname : tammyzhang-1

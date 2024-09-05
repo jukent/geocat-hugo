@@ -18,36 +18,9 @@ test your build locally.
 To build the site on your machine:
 
 ````
-git clone https://github.com/NCAR/vast.git
-cd vast
+git clone https://github.com/NCAR/geocat-hugo.git
+cd geocat-hugo
 hugo serve
-````
-
-You will see something like this:
-
-````
-Start building sites …
-hugo v0.97.3+extended darwin/amd64 BuildDate=unknown
-
-                   | EN
--------------------+------
-  Pages            |  39
-  Paginator pages  |   1
-  Non-page files   |   0
-  Static files     | 203
-  Processed images |   0
-  Aliases          |   7
-  Sitemaps         |   1
-  Cleaned          |   0
-
-Built in 360 ms
-Watching for changes in /Users/kpaul/Software/Development/vast-web/{archetypes,content,data,layouts,static,themes}
-Watching for config changes in /Users/kpaul/Software/Development/vast-web/config.toml
-Environment: "development"
-Serving pages from memory
-Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
-Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
-Press Ctrl+C to stop
 ````
 
 Using your favorite browser, navigate to ` http://localhost:XXXX/` where `XXXX` is the port number given in the hugo message.  Hugo uses live reload, so as you edit your files, the site will be continuously rebuilt.
@@ -102,25 +75,6 @@ Edit `data/team.yml` to add a new team member
 A new team member should be added in alphabetical order by last name. Each team member card on the `about` page will be automatically generated based on the contents
 of this data file.
 
-#### Adding publications
-
-Edit `data/publications.yml` to add a new publication citation:
-
-````
-  - title: Some journal article title.
-    authors:
-      - Bellew, A.
-      - Darrow, C
-      - Groves, E. F.
-    journal: The Journal of Stuff
-    year: 2003
-    extra: "1(2):3-4"
-    url: https://example.com
-````
-
-The `extra` field is optional and can contain journal volume information and page numbers.
-If the `url` field is specified, then the citation will hyperlink to the given URL.
-
 #### Adding presentations
 
 Edit `data/presentations.yml` to add a new presentation or publication citation:
@@ -141,17 +95,12 @@ Please specify the `url` field to be a link to a PDF file of the talk slides or 
 
 #### Adding services
 
-Services provided by VAST can be listed in the `data/services.yml` data file, which is used
+Services provided by GeoCAT can be listed in the `data/services.yml` data file, which is used
 to automatically create the **SERVICES** section on the website home page.
 
-Separately, you can add a larger writeup about services provided by VAST in the
+Separately, you can add a larger writeup about services provided by GeoCAT in the
 `content/_index.md` file's `Content` section.
 
-#### Adding metrics
-
-VAST metrics are displayed in the **METRICS** section of the website home page (near the
-bottom).  These metrics can be updates by modifying (or adding to) the `data/metrics.yml`
-data file.
 
 ### Adding or Modifying Site Pages
 
@@ -164,20 +113,20 @@ available from the site navigation menu:
 - Projects (R&D)
 - Software
 
-#### Modifying the VAST About page
+#### Modifying the GeoCAT About page
 
 Just modify the `Content` section (i.e., everything under the header) of the
-`content/about/_index.md` file.  The VAST mission statement (formatted differently
+`content/about/_index.md` file.  The GeoCAT mission statement (formatted differently
 on the about page) can be modified by changing the `mission` field in the header.
 
-At the bottom of the About page is the VAST team section, which can be modified by changing the `data/team.yml` file (see above).
+At the bottom of the About page is the GeoCAT team section, which can be modified by changing the `data/team.yml` file (see above).
 
-#### Modifying the VAST Education page
+#### Modifying the GeoCAT Education page
 
 Just modify the `Content` section (i.e., everything under the header) of the
 `content/education/_index.md` file.
 
-#### Modifying the VAST Services page
+#### Modifying the GeoCAT Services page
 
 Just modify the `Content` section (i.e., everything under the header) of the
 `content/services/_index.md` file.
@@ -195,7 +144,7 @@ This creates the `content/news/my-new-blog-post.md` file, and you can edit the
 header and contents of the file to display the blog.  This blog will be displayed
 on the main blog page with the thumbnail image and its title.
 
-#### Adding a new project to the VAST R&D page
+#### Adding a new project to the GeoCAT R&D page
 
 To create a new project description, just use the `hugo` command line to create a new
 markdown file for the project description:
@@ -207,9 +156,9 @@ hugo new projects/my-project.md
 This creates the `content/projects/my-project.md` file, and you can edit the
 header and contents of the file to change the detailed description of the project.
 This project will be displayed in the **RECENT PROJECTS** section of the main
-website home page and on the **VAST R&D** page.
+website home page and on the **GeoCAT R&D** page.
 
-#### Adding a new software product to the VAST Software page
+#### Adding a new software product to the GeoCAT Software page
 
 To create a new software product description, just use the `hugo` command line to create a new
 markdown file for the software product:
@@ -221,7 +170,7 @@ hugo new software/my-product.md
 This creates the `content/software/my-product.md` file, and you can edit the
 header and contents of the file to change the detailed description of the software product.
 This project will be displayed in the scrolling carousel of software products at the
-top of the website home page and on the **VAST Software** page.
+top of the website home page and on the **GeoCAT Software** page.
 
 ### Using Jupyter Notebooks rather than markdown
 
@@ -292,10 +241,6 @@ Within the `themes/ncar` directory, there are the following directories:
 
 - The `static` directory contains all static files (merged with the higher-level `static`
   directory) that are specific to the theme (and not the website).
-
-**TODO**: If the `themes/ncar` theme works and does not require significant modification, then
-it should probably be rolled into its own repository and included in this repository as a git
-submodule, which is the canonical way of adding themes to a Hugo site.
 
 ## Known Issues
 

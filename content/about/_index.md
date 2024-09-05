@@ -1,11 +1,15 @@
 ---
-title: "VISUALIZATION AND ANALYSIS SOFTWARE AND TECHNOLOGY"
-date: 2022-04-27T00:00:00-06:00
+title: "GEOSCIENCE COMMUNITY ANALYSIS TOOLKIT"
+date: 2024-09-04T00:00:00-06:00
 image: images/banners/limb.jpg
 ---
 
-NCAR’s Visualization and Analysis Software and Technology (VAST) section helps scientists, students, policy makers, and the public better understand enormous volumes of geoscientific data. Numerical simulations of complex natural phenomena, running on some of the world’s most powerful supercomputers, and a wide range of earth observing instruments all produce tremendous amounts of numerical data about the natural world. Helping explore, explain, understand, and gain insight into these complex troves of data is the mission of VAST.
+---
+
+Geoscience Community Analysis Toolkit (GeoCAT), established in 2019, leads the software engineering efforts of the NSF National Center for Atmospheric Research (NSF NCAR) Computational and Information Systems Lab (CISL)’s “Pivot to Python” initiative. Support for GeoCAT is provided by the U.S. National Science Foundation.
 
 ---
 
-VAST leads the development of open source software used by scientists, university students, and faculty to visualize and analyze their data; creates informative,  data-driven visualizations to help explain complicated science, to the public, policy makers, and even other scientists;  educates practicing and aspiring new scientists on the most effective use of emerging technologies; and conducts research into new ways to manage and extract meaning from geoscience data.
+GeoCAT essentially aims at creating scalable data analysis and visualization tools for Earth System Science data to serve the geosciences community in the scientific Python ecosystem. GeoCAT tools are built upon the cornerstone technologies in the Pangeo stack such as Xarray, Dask, and Jupyter Notebooks. Novel research and development is conducted for analyzing/visualizing structured as well as unstructured grid data from various research fields such as climate, weather, atmosphere, ocean, etc. In addition, some of the functionalities in the GeoCAT stack are inspired/reimplemented from NCL (NCAR Command Language).
+
+The GeoCAT team is committed to open development, which prioritizes community involvement at any level of the project lifecycle, from requirements and specification to testing and deployment, alongside having the whole software stack open-sourced.

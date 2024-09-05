@@ -1,12 +1,8 @@
 
 
 enable  : true
-title   : VAST Packages
+title   : GeoCAT Packages
 items  :
-
-  - package       : "VAPOR"
-    url : "https://github.com/NCAR/vapor"
-    team : VAPOR
 
   - package       : "GeoCAT-comp"
     url : "https://github.com/NCAR/geocat-comp"
