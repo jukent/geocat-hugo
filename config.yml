@@ -1,4 +1,4 @@
-baseURL       : https://geocat.ucar.edu/
+baseURL       : https://jukent.github.io/geocat-hugo/
 languageCode  : en-us
 title         : "GeoCAT| Geoscience Community Analysis Toolkit"
 theme         : ncar
