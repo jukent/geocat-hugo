@@ -8,4 +8,6 @@ repo   : "https://github.com/NCAR/geocat-examples"
 image  : "images/backgrounds/geocat-curly.png"
 ---
 
-GeoCAT example scripts (a collection of Python scripts that demonstrate how to use GeoCAT’s computational functions, or how to plot geoscientific data via packages in the Python ecosystem (primarily, Matplotlib and Cartopy) ( similar or identical to those plots at NCL examples website)).
+A collection of GeoCAT example Python scripts that demonstrate how to use GeoCAT’s computational functions, or how to plot geoscientific data via packages in the Python ecosystem (primarily, Matplotlib and Cartopy), similar or identical to the plots on the [NCL examples website](https://ncl.ucar.edu/Applications/).
+
+View the [examples gallery](https://geocat-examples.readthedocs.io/en/latest/gallery/index.html).
