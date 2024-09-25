@@ -8,5 +8,4 @@ repo   : "https://github.com/NCAR/geocat-viz"
 image  : "images/backgrounds/geocat-curly.png"
 ---
 
-
-Geoscience Community Analysis Toolkit (GeoCAT) Visualiation package.
+GeoCAT visualization library (a collection of Python functions intended to make Matplotlib/Cartopy feel more like NCL)

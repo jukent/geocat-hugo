@@ -8,5 +8,4 @@ repo   : "https://github.com/NCAR/geocat-comp"
 image  : "images/backgrounds/geocat-curly.png"
 ---
 
-
-Geoscience Community Analysis Toolkit (GeoCAT) Computational package.
+GeoCAT computational library (The computational component of the GeoCAT project that translates NCL’s non-WRF computational routines into Python and implements other geoscientific analysis functions)
