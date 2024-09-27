@@ -36,7 +36,7 @@ menu:
       weight    : 5
     - parent    : software
       name      : Active Development Software
-      url       : software-active
+      url       : software
       weight    : 1
     - parent    : software
       name      : Maintenance Software
