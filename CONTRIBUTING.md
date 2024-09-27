@@ -75,32 +75,6 @@ Edit `data/team.yml` to add a new team member
 A new team member should be added in alphabetical order by last name. Each team member card on the `about` page will be automatically generated based on the contents
 of this data file.
 
-#### Adding presentations
-
-Edit `data/presentations.yml` to add a new presentation or publication citation:
-
-````
-  - title: Some presentation title.
-    authors:
-      - Last, F.
-    conference: The Most Prestigious Conference
-    year: 2023
-    extra: City, ST
-    url: https://example.com
-````
-
-The `extra` field is optional and can contain conference city, virtual nature, or any other information.
-
-Please specify the `url` field to be a link to a PDF file of the talk slides or poster uploaded to the [VAST Presentations Google Drive folder](https://drive.google.com/drive/folders/146ZZgV5Pb0-scadJtrPEXfP_jhDYwKVL). Please use a naming convention akin to `Last_Topic_ConferenceYYYY` and be sure that the file's sharing settings allow anyone to view the file.
-
-#### Adding services
-
-Services provided by GeoCAT can be listed in the `data/services.yml` data file, which is used
-to automatically create the **SERVICES** section on the website home page.
-
-Separately, you can add a larger writeup about services provided by GeoCAT in the
-`content/_index.md` file's `Content` section.
-
 
 ### Adding or Modifying Site Pages
 
@@ -108,28 +82,16 @@ The following describes how to add (or modify) pages to the site in the main sec
 available from the site navigation menu:
 
 - About
-- Education
 - News (blog)
-- Projects (R&D)
 - Software
 
 #### Modifying the GeoCAT About page
 
 Just modify the `Content` section (i.e., everything under the header) of the
-`content/about/_index.md` file.  The GeoCAT mission statement (formatted differently
-on the about page) can be modified by changing the `mission` field in the header.
+`content/about/_index.md` file.
 
 At the bottom of the About page is the GeoCAT team section, which can be modified by changing the `data/team.yml` file (see above).
 
-#### Modifying the GeoCAT Education page
-
-Just modify the `Content` section (i.e., everything under the header) of the
-`content/education/_index.md` file.
-
-#### Modifying the GeoCAT Services page
-
-Just modify the `Content` section (i.e., everything under the header) of the
-`content/services/_index.md` file.
 
 #### Adding a new blog
 
