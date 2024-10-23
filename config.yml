@@ -15,9 +15,33 @@ menu:
       url       : news
       weight    : 2
 
-    - identifier: community
-      name      : Community Engagement
+    - identifier: software
+      name      : Software
       weight    : 3
+    - parent    : software
+      name      : Active Development Software
+      url       : software
+      weight    : 1
+    - parent    : software
+      name      : Maintenance Software
+      url       : software-maintenance
+      weight    : 2
+
+    - identifier: galleries
+      name      : Galleries
+      weight    : 4
+    - parent    : galleries
+      name      : Examples
+      url       : geocat-examples
+      weight    : 1
+    - parent    : galleries
+      name      : Applications
+      url       : geocat-applications
+      weight    : 2
+  
+    - identifier: community
+      name      : Community
+      weight    : 6
     - parent    : community
       name      : Collaborations
       url       : collaborations
@@ -30,30 +54,11 @@ menu:
       name      : Internships
       url       : siparcs
       weight    : 4
+  
+    - name      : Feature Request
+      weight    : 7
+      url: https://forms.gle/6DTo3ELLri4DAGfG8
 
-    - identifier: software
-      name      : Software
-      weight    : 5
-    - parent    : software
-      name      : Active Development Software
-      url       : software
-      weight    : 1
-    - parent    : software
-      name      : Maintenance Software
-      url       : software-maintenance
-      weight    : 2
-
-    - identifier: galleries
-      name      : Galleries
-      weight    : 6
-    - parent    : galleries
-      name      : Examples
-      url       : geocat-examples
-      weight    : 1
-    - parent    : galleries
-      name      : Applications
-      url       : geocat-applications
-      weight    : 2
 # Site Params
 params:
   name: GeoCAT
