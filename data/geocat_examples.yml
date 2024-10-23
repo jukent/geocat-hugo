@@ -10,7 +10,7 @@ items  :
 
   - category      : "Bar"
     url : "https://geocat-examples.readthedocs.io/en/latest/gallery/Bar/index.html"
-    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_bar_7_thumb.png"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_bar_14_thumb.png"
 
   - category      : "Boxplots"
     url : "https://geocat-examples.readthedocs.io/en/latest/gallery/Boxplots/index.html"
