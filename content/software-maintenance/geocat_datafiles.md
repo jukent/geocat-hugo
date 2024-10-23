@@ -8,4 +8,4 @@ repo   : "https://github.com/NCAR/geocat-datafiles"
 image  : "images/backgrounds/geocat-curly.png"
 ---
 
-GeoCAT datafiles library (a collection of many data files from several file types that are used by GeoCAT-examples and possibly other GeoCAT components to test or demonstrate GeoCAT functionality)
+GeoCAT datafiles library (a collection of many data files from several file types that are used by GeoCAT-examples and possibly other GeoCAT components to test or demonstrate GeoCAT functionality).

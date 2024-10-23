@@ -1,0 +1,113 @@
+
+
+enable  : true
+title   : GeoCAT Examples
+items  :
+
+  - category      : "Animate"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/Animations/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_animate_1_thumb.gif"
+
+  - category      : "Bar"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/Bar/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_bar_7_thumb.png"
+
+  - category      : "Boxplots"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/Boxplots/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_box_3_thumb.png"
+ 
+  - category      : "Write CSV"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/CSV/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_write_csv_1_thumb.png"
+
+  - category      : "Colors"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/Colors/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_CB_Temperature_thumb.png"
+
+  - category      : "Contour"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/Contours/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_minmax_3_thumb.png"
+
+  - category      : "Line"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/Line/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_leg_1_thumb.png"
+
+  - category      : "Map Projections"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/MapProjections/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_sat_2_thumb.png"
+
+  - category      : "Masking"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/Masking/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_mask_2_thumb.png"
+
+  - category      : "Meteograms"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/Meteograms/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_meteo_1_thumb.png"
+
+  - category      : "Overlays"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/Overlays/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_overlay_11a_thumb.png"
+
+  - category      : "Panels"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/Panels/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_panel_6_thumb.png"
+
+  - category      : "Polygons"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/Polygons/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_polyg_19_thumb.png"
+
+  - category      : "Probability Distributions"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/ProbabilityDistribution/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_pdf_1_thumb.png"
+
+  - category      : "Regression"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/Regression/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_regress_1_thumb.png"
+
+  - category      : "Scatter"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/Scatter/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_scatter_6_thumb.png"
+
+  - category      : "Shapefiles"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/Shapefiles/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_shapefiles_1_thumb.png"
+
+  - category      : "Skew-T"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/Skew-T/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_skewt_2_2_thumb.png"
+
+  - category      : "Station Examples"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/StationExamples/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_station_1_thumb.png"
+
+  - category      : "Streamlines"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/Streamlines/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_stream_1_thumb.png"
+
+  - category      : "Tables"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/Tables/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_table_2_thumb.png"
+
+  - category      : "Taylor Diagrams"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/TaylorDiagrams/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_taylor_8_thumb.png"
+
+  - category      : "Topography"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/Topography/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_topo_4_thumb.png"
+
+  - category      : "Trajectories"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/Trajectories/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_traj_1_thumb.png"
+
+  - category      : "Vector Plots"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/VectorPlots/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_vector_1_thumb.png"
+
+  - category      : "WRF"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/WRF/index.html"
+    image : "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_dataonmap_10_thumb.png"
+
+  - category      : "XY Plots"
+    url : "https://geocat-examples.readthedocs.io/en/latest/gallery/XYPlots/index.html"
+    image: "https://geocat-examples.readthedocs.io/en/latest/_images/sphx_glr_NCL_xy_5_thumb.png"
