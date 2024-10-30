@@ -3,7 +3,7 @@ title   : Other Resources
 items  :
 
   - package: "GeoCAT-examples"
-    url: ../geocat-examples
+    url: ../geocat_examples
     image  : "images/backgrounds/examples.png"
   - package: "GeoCAT-applications"
     url: ./geocat_applications
