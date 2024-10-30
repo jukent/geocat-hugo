@@ -1,0 +1,13 @@
+enable  : true
+title   : GeoCAT Active Development Software
+items  :
+
+  - package: "GeoCAT-comp"
+    url: ./geocat_comp
+    image  : "images/backgrounds/geocat-curly.png"
+  - package: "GeoCAT-viz"
+    url: ./geocat_viz
+    image  : "images/backgrounds/geocat-curly.png"
+  - package: "UXarray"
+    url: ./uxarray
+    image  : "images/backgrounds/uxarray-relhum.png"

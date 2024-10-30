@@ -15,34 +15,9 @@ menu:
       url       : news
       weight    : 2
 
-    - identifier: software
-      name      : Software
+    - name      : Software
       url       : software
       weight    : 3
-    - parent    : software
-      name      : All Software
-      url       : software
-      weight    : 1
-    - parent    : software
-      name      : GeoCAT-comp
-      url       : software/geocat_comp/
-      weight    : 2
-    - parent    : software
-      name      : GeoCAT-viz
-      url       : software/geocat_viz/
-      weight    : 3
-    - parent    : software
-      name      : UXarray
-      url       : software/uxarray/
-      weight    : 4
-    - parent    : software
-      name      : Geocat-applications
-      url       : software/geocat_applications
-      weight    : 4
-    - parent    : software
-      name      : Geocat-examples
-      url       : geocat_examples
-      weight    : 4
   
     - identifier: community
       name      : Community
@@ -87,26 +62,3 @@ params:
       title  : Contact Info
       address: 1850 Table Mesa Dr.<br>Boulder, CO 80305
       email  : geocat@ucar.edu
-
-    sitemap:
-      title: Sitemap
-      column:
-        - link:
-          - name: About us
-            url : about
-          - name: News
-            url : news
-          - name: Presentations
-            url: presentations
-          - name: Internships
-            url : siparcs
-        - link:
-          - name: Software
-            url : software
-          - name: Education
-            url : education
-          - name: Services
-            url : services
-          - name: R&D
-            url : projects
-
