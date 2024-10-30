@@ -1,0 +1,21 @@
+software_sections:
+  - subtitle: "Section 1"
+    background_color: "#f0f0f0"
+    items:
+      - package: "GeoCAT-comp"
+        url: "/software/geocat-comp"
+      - package: "GeoCAT-viz"
+        url: "/software/geocat-viz"
+  - subtitle: "Galleries"
+    background_color: "white"
+    items:
+      - package: "GeoCAT-examples"
+        url: "/geocat-examples/"
+      - package: "GeoCAT-applications"
+        url: "/software/geocat-applications"
+  - subtitle: "Maintenance Software"
+    background_color: "#d0d0d0"
+    items:
+      - package: "Software 5"
+        tagline: "Tagline for Software 5"
+        url: "/software/geocat_f2py/"

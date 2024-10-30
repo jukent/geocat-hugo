@@ -78,7 +78,7 @@
       0px 30px 45px 0px rgba(0, 0, 0, 0.02),
       0px 30px 45px 0px rgba(0, 0, 0, 0.03),
       0px 30px 45px 0px rgba(0, 0, 0, 0.04);
-      .site-software-maintenance-item-content {
+      .site-geocat-examples-item-content {
         a {
           transform: translateY(0);
           opacity: 1;
@@ -188,7 +188,7 @@
   }
 
   &-docs {
-    @extend .site-software-maintenance-git;
+    @extend .site-geocat-examples-git;
     background: $secondary-color;
     color: $white;
     .icon-data-assimilation {
@@ -423,4 +423,20 @@
       font-weight: 600;
     }
   }
+}
+
+.site-geocat-examples-gallery {
+  background-color: #f2f2f2;
+}
+
+.site-geocat-examples-item-thumb {
+  height: 400px;
+  overflow: hidden;
+  background-color: white;
+  padding-top: 10px;
+}
+
+.site-geocat-examples-item-thumb img {
+  object-fit: contain;
+  padding-bottom:40px;
 }
