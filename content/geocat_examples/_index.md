@@ -1,6 +1,6 @@
 ---
 title  : "GeoCAT-examples"
-image: images/backgrounds/examples.png
+image: "images/backgrounds/examples.png"
 repo: "https://github.com/NCAR/geocat-examples"
 docs: "https://geocat-examples.readthedocs.io/en/latest/gallery/index.html"
 tagline: "The Geoscience Community Analysis Toolkit: Examples"
