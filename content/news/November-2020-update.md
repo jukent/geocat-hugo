@@ -15,9 +15,11 @@ I hope this open letter finds you well during these unprecedented and challengin
 
 In January of 2019 NCAR announced plans to transition away from the NCL language and focus efforts on providing geosciences analysis tools that were based on the Python Scientific Ecosystem. Furthermore, we announced that NCL would be put into “maintenance mode”, and due to limited staffing resources, would no longer be actively developed by NCAR.
 
-I wanted to take this opportunity to elaborate further on what “maintenance mode” means for the community, and hopefully relieve anxiety that some may be feeling. **Maintenance mode means that NCAR will not add new features to the NCL language or function library, nor will we fix sub-critical software defects. However, NCAR will
+I wanted to take this opportunity to elaborate further on what “maintenance mode” means for the community, and hopefully relieve anxiety that some may be feeling.
 
- - for as long as we are reasonably able and there is a sufficient demand - put out periodic bug-fix releases and ensure NCL continues to build on currently supported platforms.** In addition, we will do our best to timely address installation questions that are related to the Conda package management system. Furthermore, as part of our embracement of Open Development practices, we will facilitate community contributions of all types (e.g. bug fixes, new functions, etc.). Stay tuned for more information on Open Development.
+**Maintenance mode means that NCAR will not add new features to the NCL language or function library, nor will we fix sub-critical software defects. However, NCAR will for as long as we are reasonably able and there is a sufficient demand - put out periodic bug-fix releases and ensure NCL continues to build on currently supported platforms.**
+
+In addition, we will do our best to timely address installation questions that are related to the Conda package management system. Furthermore, as part of our embracement of Open Development practices, we will facilitate community contributions of all types (e.g. bug fixes, new functions, etc.). Stay tuned for more information on Open Development.
 
 I fully recognize that many in the community have substantial investments in NCL scripts and I do not expect, nor would I advise, translating thousands of lines of NCL code into Python. That said, I would caution against making substantial new investments in workflows based on NCL. To repeat, it is our intent to ensure that existing NCL scripts will continue to run for as long as reasonably possible, but NCAR’s priority for the future will be on modern Python tools.
 
