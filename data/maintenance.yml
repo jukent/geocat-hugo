@@ -11,7 +11,7 @@ items  :
   - package: "PyNGL"
     url: ./pyngl/
     image  : "images/backgrounds/geocat-curly.png"
-  - package: "wrf-python"
+  - package: "WRF-Python"
     url: ./wrf_python/
     image  : "images/backgrounds/wrf.png"
   - package: "GeoCAT-f2py"

@@ -1,5 +1,5 @@
 ---
-title  : "WRF-python"
+title  : "WRF-Python"
 date   : 2022-05-03T09:23:17-06:00
 type   : software
 tagline: "WRF-Python"
