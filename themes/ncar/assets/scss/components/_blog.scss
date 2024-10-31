@@ -105,3 +105,20 @@
     }
   }
 }
+
+.site-blog-post-thumb img {
+  margin-bottom: 0px;
+  object-fit: cover;
+  height: 250px;
+  width: 100%
+}
+
+.site-project-item-thumb img, .site-blog-post-thumb img {
+  margin-bottom: 0px;
+}
+
+.site-project-item-content, .site-blog-post-content {
+  position: static;
+  height: 400px;
+  overflow: hidden;
+}
