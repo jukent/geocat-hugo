@@ -4,7 +4,7 @@ items  :
 
   - package: "GeoCAT-comp"
     url: ./geocat_comp
-    image  : "images/backgrounds/geocat-curly.png"
+    image  : "images/backgrounds/comp.png"
   - package: "GeoCAT-viz"
     url: ./geocat_viz
     image  : "images/backgrounds/geocat-curly.png"

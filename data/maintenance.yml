@@ -7,4 +7,4 @@ items  :
     image  : "images/backgrounds/geocat-curly.png"
   - package: "wrf-python"
     url: ./wrf_python/
-    image  : "images/backgrounds/geocat-curly.png"
+    image  : "images/backgrounds/wrf.png"

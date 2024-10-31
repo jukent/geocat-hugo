@@ -5,7 +5,7 @@ type   : software
 tagline: "The Geoscience Community Analysis Toolkit: Applications"
 docs   : "https://ncar.github.io/geocat-applications/"
 repo    : "https://github.com/NCAR/geocat-applications"
-image  : "images/backgrounds/geocat-curly.png"
+image  : "images/backgrounds/applications.png"
 ---
 
 GeoCAT Applications is a community resource inspired by the NCL Applications page.
