@@ -10,7 +10,7 @@ feature_image: "images/news/Mesa-Lab3.png.webp"
 Dear NCL Community,
 
 I hope this open letter finds you well during these unprecedented and challenging times. I apologize for the length of this note, but it has been a while since I’ve provided an update to the community and there are many exciting developments to report on.
-
+<!--more-->
 ### NCAR’s Commitment to NCL
 
 In January of 2019 NCAR announced plans to transition away from the NCL language and focus efforts on providing geosciences analysis tools that were based on the Python Scientific Ecosystem. Furthermore, we announced that NCL would be put into “maintenance mode”, and due to limited staffing resources, would no longer be actively developed by NCAR.
