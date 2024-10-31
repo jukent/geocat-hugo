@@ -8,3 +8,4 @@ repo    : "https://github.com/NCAR/geocat-applications"
 image  : "images/backgrounds/geocat-curly.png"
 ---
 
+GeoCAT Applications is a community resource inspired by the NCL Applications page.
