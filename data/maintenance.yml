@@ -2,9 +2,18 @@ enable  : true
 title   : GeoCAT Maintenance Software
 items  :
 
-  - package: "GeoCAT-f2py"
-    url: ./geocat_f2py/
+  - package: "NCL"
+    url: ./ncl/
+    image  : "images/backgrounds/geocat-curly.png"
+  - package: "PyNIO"
+    url: ./pynio/
+    image  : "images/backgrounds/geocat-curly.png"
+  - package: "PyNGL"
+    url: ./pyngl/
     image  : "images/backgrounds/geocat-curly.png"
   - package: "wrf-python"
     url: ./wrf_python/
     image  : "images/backgrounds/wrf.png"
+  - package: "GeoCAT-f2py"
+    url: ./geocat_f2py/
+    image  : "images/backgrounds/geocat-curly.png"
