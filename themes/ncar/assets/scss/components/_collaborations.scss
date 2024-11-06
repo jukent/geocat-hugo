@@ -57,3 +57,27 @@
     }
   }
 }
+
+.collaboration-section {
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+}
+
+.cookbook-item {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.cookbook-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.cookbook-title {
+  font-size: 1.1em;
+  color: #333;
+}

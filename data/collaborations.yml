@@ -1,0 +1,23 @@
+enable : true
+title  : GeoCAT Cookbooks
+collaborations:
+
+  - title: "ESDS"
+    description: "Earth System Data Science (ESDS) is a community building effort at NSF NCAR / UCAR to bring geoscientists and geoscientific software engineers together to share new tools, ideas, and techniques for the evolving best practices with big data Python."
+    url: "https://ncar.github.io/esds/"
+
+  - title: "Project Pythia"
+    description: "Project Pythia is an education and training hub for the geoscientific Python community. Here is a collection of Cookbooks related to GeoCAT projects. Visit the full <a href='https://cookbooks.projectpythia.org/'>Project Pythia Cookbooks gallery</a>."
+    url: "https://projectpythia.org/"
+    gallery:
+      - title: "Advanced Visualization Cookbook"
+        url: "https://projectpythia.org/advanced-viz-cookbook/README.html"
+        image: "https://projectpythia.org/advanced-viz-cookbook/_images/thumbnail.png"
+
+      - title: Unstructured Grid Visualization Cookbook
+        url: https://projectpythia.org/unstructured-grid-viz-cookbook/README.html
+        image: https://raw.githubusercontent.com/ProjectPythia/unstructured-grid-viz-cookbook/main/thumbnail.png
+
+  - title: "CUPiD"
+    description: "CUPiD stands for the CESM Unified Postprocessing and Diagnostics. This project handles a lot of data standartdization and computation for CESM."
+    url: "https://ncar.github.io/CUPiD/"

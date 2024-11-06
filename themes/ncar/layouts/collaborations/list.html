@@ -1,23 +1,50 @@
 {{ define "main" }}
 
-<section class="site-collaborations-header" style="background-image: url({{ .Params.image | absURL }});">
-  <div class="container" >
-    <div class="row justify-content-right">
-      <div class="col-lg-12 text-center">
-        <h1>{{ .Title }}</h1>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="site-collaborations-content">
+<div class="site-software-single-header" style="background-image: url(../{{ .Params.image }});">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-12">
-        {{ .Content  | safeHTML }}
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="site-software-single">
+          <h1>
+            {{ .Title }}
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="site-geocat-examples" id="geocat-examples">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <p>{{ .Params.description | markdownify }}
       </div>
     </div>
   </div>
 </section>
 
+<section class="site-collaborations">
+  <div class="container">
+    {{ range .Site.Data.collaborations.collaborations }}
+    <div class="collaboration-section">
+      <h2><a href="{{ .url }}">{{ .title }}</a></h2>
+      <p>{{ .description | safeHTML }}</p>
+      
+      {{ if .gallery }}
+      <div class="gallery row">
+        {{ range .gallery }}
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <a href="{{ .url }}">
+            <img src="{{ .image }}" alt="{{ .title }}" class="img-fluid">
+            <h3>{{ .title }}</h3>
+          </a>
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
 {{ end }}
