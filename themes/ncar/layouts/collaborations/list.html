@@ -18,7 +18,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto">
-        <p>{{ .Params.description | markdownify }}
+        <p>{{ .Params.description | markdownify }}</p>
       </div>
     </div>
   </div>
@@ -28,23 +28,38 @@
   <div class="container">
     {{ range .Site.Data.collaborations.collaborations }}
     <div class="collaboration-section">
-      <h2><a href="{{ .url }}">{{ .title }}</a></h2>
+      <div style="display: flex; align-items: center;">
+        <div class="collaboration-logo">
+          {{ if .logo }}
+            <img src="{{ .logo | absURL }}" alt="{{ .title }} logo">
+          {{ end }}
+        </div>
+        <h2><a href="{{ .url }}">{{ .title }}</a></h2>
+      </div>      
       <p>{{ .description | safeHTML }}</p>
-      
+
       {{ if .gallery }}
       <div class="gallery row">
         {{ range .gallery }}
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <a href="{{ .url }}">
-            <img src="{{ .image }}" alt="{{ .title }}" class="img-fluid">
-            <h3>{{ .title }}</h3>
+          <a href="{{ .url }}" class="text-decoration-none">
+            <div class="gallery-item">
+              <div class="gallery-item-thumb">
+                <img src="{{ .image | absURL }}" alt="{{ .title }}" class="img-fluid">
+              </div>
+              <div class="gallery-item-content text-center">
+                <h3>{{ .title }}</h3>
+              </div>
+            </div>
           </a>
         </div>
         {{ end }}
       </div>
-      {{ end }}
-    </div>
-    {{ end }}
-  </div>
-</section>
+      {{ end }}  <!-- end gallery loop -->
+
+    </div> <!-- end collaboration-section -->
+    {{ end }}  <!-- end collaborations range -->
+  </div> <!-- end container -->
+</section>  <!-- end site-collaborations -->
+
 {{ end }}
