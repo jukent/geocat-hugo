@@ -1,10 +1,25 @@
 {{ define "main" }}
 
 <section class="site-talks-header" style="background-image: url({{ .Params.image | absURL }});">
-  <div class="container" >
-    <div class="row justify-content-right">
+  <div class="container">
+    <div class="row justify-content-center">
       <div class="col-lg-12 text-center">
         <h1>{{ .Title }}</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="site-featured-presentation">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h2>{{ .Params.featured_title }}</h2>
+        <h3>{{ .Params.featured_subtitle | markdownify }}</h3>
+        <p>{{ .Params.featured_description | safeHTML }}</p>
+        {{ if .Params.featured_blog_link }}
+        <a href="{{ .Params.featured_blog_link }}" class="btn btn-primary">Read More</a>
+        {{ end }}
       </div>
     </div>
   </div>
@@ -14,7 +29,7 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-12">
-        {{ .Content  | safeHTML }}
+        {{ .Content | safeHTML }}
       </div>
     </div>
   </div>
