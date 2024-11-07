@@ -21,6 +21,6 @@ collaborations:
         image: https://raw.githubusercontent.com/ProjectPythia/unstructured-grid-viz-cookbook/main/thumbnail.png
 
   - title: "CUPiD"
-    description: "CUPiD stands for the CESM Unified Postprocessing and Diagnostics. This project handles a lot of data standartdization and computation for CESM."
+    description: "CESM Unified Postprocessing and Diagnostics (CUPiD) is a Python framework for generating diagnostics from CESM that enables and integrates timeseries file generation, data standardization, diagnostics, and metrics from all CESM components."
     url: "https://ncar.github.io/CUPiD/"
     logo: "https://ncar.github.io/CUPiD/_static/logo.png"
