@@ -1,23 +1,66 @@
 {{ define "main" }}
 
-<section class="site-collaborations-header" style="background-image: url({{ .Params.image | absURL }});">
-  <div class="container" >
-    <div class="row justify-content-right">
-      <div class="col-lg-12 text-center">
-        <h1>{{ .Title }}</h1>
+<div class="site-software-single-header" style="background-image: url(../{{ .Params.image }});">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="site-software-single">
+          <h1>{{ .Title }}</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="site-geocat-examples" id="geocat-examples">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <p>{{ .Params.description | markdownify }}</p>
       </div>
     </div>
   </div>
 </section>
 
-<section class="site-collaborations-content">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-12">
-        {{ .Content  | safeHTML }}
+<section class="site-collaborations">
+  {{ $backgroundColors := slice "#f2f2f2" "#d0d0d0" }}
+  {{ range $index, $collaboration := .Site.Data.collaborations.collaborations }}
+  <div style="background-color: {{ index $backgroundColors (mod $index 2) }}; padding: 2em 0;">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-2 collaboration-logo">
+          {{ if $collaboration.logo }}
+            <img src="{{ $collaboration.logo | absURL }}" alt="{{ $collaboration.title }} logo" class="img-fluid">
+          {{ end }}
+        </div>
+        <div class="col-md-10">
+          <h2><a href="{{ $collaboration.url }}">{{ $collaboration.title }}</a></h2>
+          <p>{{ $collaboration.description | safeHTML }}</p>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+
+      {{ if $collaboration.gallery }}
+      <div class="gallery row mt-4">
+        {{ range $collaboration.gallery }}
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <a href="{{ .url }}" class="text-decoration-none">
+            <div class="gallery-item">
+              <div class="gallery-item-thumb">
+                <img src="{{ .image | absURL }}" alt="{{ .title }}" class="img-fluid">
+              </div>
+              <div class="gallery-item-content text-center">
+                <h3>{{ .title }}</h3>
+              </div>
+            </div>
+          </a>
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}  <!-- end gallery check -->
+
+    </div> <!-- end inner container -->
+  </div> <!-- end background-colored section -->
+  {{ end }}  <!-- end collaborations range -->
+</section>  <!-- end site-collaborations -->
 
 {{ end }}

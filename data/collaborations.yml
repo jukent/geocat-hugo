@@ -1,0 +1,26 @@
+enable : true
+title  : GeoCAT Cookbooks
+collaborations:
+
+  - title: "ESDS"
+    description: "Earth System Data Science (ESDS) is a community building effort at NSF NCAR / UCAR that brings geoscientists and geoscientific software engineers together to share new tools, ideas, and techniques for the evolving best practices with big data Python."
+    url: "https://ncar.github.io/esds/"
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_XP1q7N51nY4A9KuEXDX46gYqrBphHLfj8Q&s"
+
+  - title: "Project Pythia"
+    description: "Project Pythia is an education and training hub for the geoscientific Python community. Here is a collection of Cookbooks related to GeoCAT projects. Visit the full <a href='https://cookbooks.projectpythia.org/'>Project Pythia Cookbooks gallery</a>."
+    url: "https://projectpythia.org/"
+    logo: "https://raw.githubusercontent.com/ProjectPythia/advanced-viz-cookbook/main/thumbnail.png"
+    gallery:
+      - title: "Advanced Visualization Cookbook"
+        url: "https://projectpythia.org/advanced-viz-cookbook/README.html"
+        image: "https://projectpythia.org/advanced-viz-cookbook/_images/2b484515ab7d60fb802616951a1c621d06a9200a93088fd268686eed11e1f982.png"
+
+      - title: Unstructured Grid Visualization Cookbook
+        url: https://projectpythia.org/unstructured-grid-viz-cookbook/README.html
+        image: https://raw.githubusercontent.com/ProjectPythia/unstructured-grid-viz-cookbook/main/thumbnail.png
+
+  - title: "CUPiD"
+    description: "CESM Unified Postprocessing and Diagnostics (CUPiD) is a Python framework for generating diagnostics from CESM that enables and integrates timeseries file generation, data standardization, diagnostics, and metrics from all CESM components."
+    url: "https://ncar.github.io/CUPiD/"
+    logo: "https://ncar.github.io/CUPiD/_static/logo.png"
