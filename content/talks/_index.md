@@ -8,4 +8,4 @@ featured_description: "The GeoCAT team will have a presence at the upcoming AMS 
 featured_blog_link: ../news/ams2025
 ---
 
-For all previous VAST talks see the [VAST Presentations list](https://vast.ucar.edu/presentations/).
+For all previous GeoCAT talks see the [VAST Presentations list](https://vast.ucar.edu/presentations/) on the VAST website (VAST is the parent team of GeoCAT).
