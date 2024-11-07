@@ -9,5 +9,3 @@ featured_blog_link: ../news/ams2025
 ---
 
 For all previous VAST talks see the [VAST Presentations list](https://vast.ucar.edu/presentations/).
-
-Also come here for information on upcoming tutorials.
