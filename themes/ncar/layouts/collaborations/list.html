@@ -1,16 +1,18 @@
 {{ define "main" }}
 
-<div class="site-software-single-header" style="background-image: url(../{{ .Params.image }});">
+<section class="site-software-header" style="background-image: url({{ .Params.image | absURL }});">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto">
-        <div class="site-software-single">
-          <h1>{{ .Title }}</h1>
+    <div class="row align-items-center">
+      <div class="col-lg-8">
+        <div class="site-software-header-content">
+          <h1>
+            Collaborations
+          </h1>
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>
 
 <section class="site-geocat-examples" id="geocat-examples">
   <div class="container">
