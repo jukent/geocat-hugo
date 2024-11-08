@@ -1,21 +1,18 @@
 {{ define "main" }}
 
-<div class="site-software-single-header" style="background-image: url(../../{{ .Params.image }});">
+<div class="site-software-single-header" style="background-image: url(../../{{ .Params.image }}); height: 400px; position: relative;">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto">
         <div class="site-software-single">
-          <h1 style="-webkit-text-stroke: 2px black;">
-            {{ .Title }}
-          </h1>
-          <h4 style="-webkit-text-stroke: 1px gray;">
-            {{ .Params.tagline }}
-          </h4>
+          <h1>{{ .Title }}</h1>
+          <h4 style="color: white;">{{ .Params.tagline }}</h4>
         </div>
       </div>
     </div>
   </div>
 </div>
+
 
 <section class="site-software-single-section">
   <div class="container">
