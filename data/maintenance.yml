@@ -3,17 +3,12 @@ title   : GeoCAT Maintenance Software
 items  :
 
   - package: "NCL"
-    url: ./ncl/
-    image  : "images/backgrounds/geocat-curly.png"
+    url:  "https://www.ncl.ucar.edu/"
   - package: "PyNIO"
-    url: ./pynio/
-    image  : "images/backgrounds/geocat-curly.png"
+    url: "https://www.pyngl.ucar.edu/Nio.shtml"
   - package: "PyNGL"
-    url: ./pyngl/
-    image  : "images/backgrounds/geocat-curly.png"
+    url: "https://www.pyngl.ucar.edu/"
   - package: "WRF-Python"
-    url: ./wrf_python/
-    image  : "images/backgrounds/wrf.png"
+    url: "https://wrf-python.readthedocs.io/en/latest/"
   - package: "GeoCAT-f2py"
-    url: ./geocat_f2py/
-    image  : "images/backgrounds/geocat-curly.png"
+    url: "https://geocat-f2py.readthedocs.io/en/latest/"
