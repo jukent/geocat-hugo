@@ -66,27 +66,19 @@
 
 <section class="site-software site-software-gallery" id="maintenance-software" style="background-color: #d0d0d0;">
   <div class="container">
-    <h2>
-      Under Maintenance
-    </h2>
-    <p style="color: black;">Blurb describing what we mean by maintenance software.</p>
-    <div class="row">
+    <h2>Under Maintenance</h2>
+    <p style="color: black;">
+      NCAR has made the decision to adopt Python as the scripting language platform of choice for future development of analysis and visualization tools. 
+      As part of this decision, NCL, PyNGL, and PyNIO have been placed into maintenance mode. 
+      Please read this <a href="https://www.ncl.ucar.edu/open_letter_to_ncl_users.shtml">open letter to NCL users</a> to understand what kind of impact this will have on the future of these projects.
+    </p>
+    <ul>
       {{ range .Site.Data.maintenance.items }}
-      <div class="col-lg-6 col-md-10 mx-auto">
-        <a href="{{ .url }}" class="text-decoration-none">
-        <div class="site-software-item">
-          <div class="site-software-item-thumb">
-            <img src="{{ .image | absURL }}" alt="software-thumb">
-          </div>
-          <div class="site-software-item-content">
-            <h3>{{ .package }}</h3>
-            <span>{{ .tagline }}</span> <!-- Ensure you have this in your YAML -->
-          </div>
-        </div>
-        </a>
-      </div>
+      <li>
+        <h5><a href="{{ .url }}" class="text-decoration-none">{{ .package }}</a></h5>
+      </li>
       {{ end }}
-    </div>
+    </ul>
   </div>
 </section>
 

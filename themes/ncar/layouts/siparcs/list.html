@@ -1,13 +1,15 @@
 {{ define "main" }}
 {{ with .Site.Data.siparcs }}
 {{ if .enable }}
-<section class="site-siparcs-header" style="background-image: url({{ .image | absURL }});">
- <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h1>
-          {{ .title }}
-        </h1>
+<section class="site-software-header" style="background-image: url({{ .image | absURL }});">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-8">
+        <div class="site-software-header-content">
+          <h1>
+            SIParCS Projects
+          </h1>
+        </div>
       </div>
     </div>
   </div>
