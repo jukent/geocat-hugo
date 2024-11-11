@@ -24,3 +24,18 @@ collaborations:
     description: "CESM Unified Postprocessing and Diagnostics (CUPiD) is a Python framework for generating diagnostics from CESM that enables and integrates timeseries file generation, data standardization, diagnostics, and metrics from all CESM components."
     url: "https://ncar.github.io/CUPiD/"
     logo: "https://ncar.github.io/CUPiD/_static/logo.png"
+
+  - title: "Project Raijin"
+    description: "Project Raijin is an NSF EarthCube-funded effort whose goal is to enhance the open source analysis and visualization tool landscape by developing community-owned, sustainable, scalable tools that facilitate operating on unstructured climate and global weather data."
+    url: "https://raijin.ucar.edu/"
+    logo: "https://raijin.ucar.edu/_static/images/logos/ProjectRaijin_Logo.png"
+
+  - title: "SEATS"
+    description: "The Simplifying ESM Analysis Through Standards (SEATS) project aims to make it easier to analyze the increasingly complex output from earth system models. "
+    url: "https://seatstandards.org/"
+    logo: "https://seatstandards.org/SEATSlogo.png"
+
+
+
+
+
