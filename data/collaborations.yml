@@ -5,7 +5,7 @@ collaborations:
   - title: "ESDS"
     description: "Earth System Data Science (ESDS) is a community building effort at NSF NCAR / UCAR that brings geoscientists and geoscientific software engineers together to share new tools, ideas, and techniques for the evolving best practices with big data Python."
     url: "https://ncar.github.io/esds/"
-    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_XP1q7N51nY4A9KuEXDX46gYqrBphHLfj8Q&s"
+    logo: "images/logos/esds.png"
 
   - title: "Project Pythia"
     description: "Project Pythia is an education and training hub for the geoscientific Python community. Here is a collection of Cookbooks related to GeoCAT projects. Visit the full <a href='https://cookbooks.projectpythia.org/'>Project Pythia Cookbooks gallery</a>."
@@ -23,7 +23,7 @@ collaborations:
   - title: "CUPiD"
     description: "CESM Unified Postprocessing and Diagnostics (CUPiD) is a Python framework for generating diagnostics from CESM that enables and integrates timeseries file generation, data standardization, diagnostics, and metrics from all CESM components."
     url: "https://ncar.github.io/CUPiD/"
-    logo: "https://ncar.github.io/CUPiD/_static/logo.png"
+    logo: "images/logos/cupid.png"
 
   - title: "Project Raijin"
     description: "Project Raijin is an NSF EarthCube-funded effort whose goal is to enhance the open source analysis and visualization tool landscape by developing community-owned, sustainable, scalable tools that facilitate operating on unstructured climate and global weather data."
@@ -33,7 +33,7 @@ collaborations:
   - title: "SEATS"
     description: "The Simplifying ESM Analysis Through Standards (SEATS) project aims to make it easier to analyze the increasingly complex output from earth system models. "
     url: "https://seatstandards.org/"
-    logo: "https://seatstandards.org/SEATSlogo.png"
+    logo: "images/logos/seats.png"
 
 
 
