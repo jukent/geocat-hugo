@@ -14,4 +14,4 @@ GeoCAT aims to create scalable data analysis and visualization tools for Earth S
 
 The GeoCAT team is committed to open development, prioritizing community involvement at all levels of the project lifecycle, from requirements and specification to testing and deployment, alongside having the whole software stack open-sourced.
 
-GeoCAT is a team within NSF NCAR's [Visualization & Analysis Systems Technologies (VAST)](https://vast.ucar.edu/). VAST, and in turn GeoCAT, are within the [Computational and Information Systems Lab (CISL)](https://www.cisl.ucar.edu/). as shown in the [UCAR org chart](https://ncar.ucar.edu/who-we-are/org-chart).
+GeoCAT is a team within NSF NCAR's [Visualization & Analysis Systems Technologies (VAST)](https://vast.ucar.edu/) section of the [Computational and Information Systems Lab (CISL)](https://www.cisl.ucar.edu/).
