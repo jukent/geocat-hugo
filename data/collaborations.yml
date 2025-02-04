@@ -3,7 +3,7 @@ title  : GeoCAT Cookbooks
 collaborations:
 
   - title: "ESDS"
-    description: "Earth System Data Science (ESDS) is a community building effort at NSF NCAR / UCAR that brings geoscientists and geoscientific software engineers together to share new tools, ideas, and techniques for the evolving best practices with big data Python."
+    description: "The Earth System Data Science (ESDS) Initiative is a community building effort at NSF NCAR and UCAR with the goal of advancing geoscientists' ability to make effective use of modern, open tools and technologies to support their data science needs."
     url: "https://ncar.github.io/esds/"
     logo: "images/logos/esds.png"
 
