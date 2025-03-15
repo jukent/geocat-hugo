@@ -8,4 +8,8 @@ repo   : "https://github.com/UXARRAY/uxarray"
 image  : "images/backgrounds/uxarray-relhum.png"
 ---
 
-UXarray aims to address the geoscience community's need for tools that enable standard data analysis techniques to operate directly on unstructured grid data. UXarray provides Xarray-styled functionality to better read in and use unstructured grid datasets that follow standard conventions, including UGRID, MPAS, GEOS, ICON, SCRIP, ESMF, and Exodus grid formats. This effort is a result of the collaboration between Project Raijin (NSF NCAR and Pennsylvania State University) and the SEATS Project (Argonne National Laboratory, UC Davis, and Lawrence Livermore National Laboratory).
+UXarray aims to address the geoscience community's need for tools that enable standard data analysis techniques and visualization functionality to operate directly on unstructured grid data (i.e. without needing to regrid to structured grids). 
+
+UXarray provides Xarray-styled functionality to better read in and use unstructured grid datasets that follow standard conventions, including MPAS, ESMF, GEOS, ICON, etc. model outputs, and UGRID, SCRIP, Exodus, etc. extensions. 
+
+This effort was initialized as a result of the collaboration between NSF's Project Raijin (NSF NCAR and Pennsylvania State University) and DOE's SEATS Project (Argonne National Laboratory, UC Davis, and Lawrence Livermore National Laboratory), and is open to further community engagement.
