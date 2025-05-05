@@ -19,10 +19,10 @@ jobs:
     steps:
 
       - name: Checkout repository
-        uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744 # v3
+        uses: actions/checkout@v3
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@dc8541739ae7fe300ac99c70459cdc50e08ed4e3 # v2
+        uses: peaceiris/actions-hugo@19661a5c56c987b713f1f00f022671286b04f53b # v2
         with:
           hugo-version: '0.91.2'
           extended: true
