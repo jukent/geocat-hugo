@@ -31,7 +31,7 @@ jobs:
         run: hugo --minify
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@4a69c2d60cc91a7f6e81e4fdf08a400f7059352f
+        uses: peaceiris/actions-gh-pages@4a69c2d60cc91a7f6e81e4fdf08a400f7059352f # v3
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
