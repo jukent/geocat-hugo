@@ -13,11 +13,11 @@ collaborations:
     logo: "https://raw.githubusercontent.com/ProjectPythia/advanced-viz-cookbook/main/thumbnail.png"
     gallery:
       - title: "Advanced Visualization Cookbook"
-        url: "https://projectpythia.org/advanced-viz-cookbook/README.html"
+        url: "https://projectpythia.org/advanced-viz-cookbook"
         image: "https://raw.githubusercontent.com/ProjectPythia/advanced-viz-cookbook/refs/heads/main/advancedvizcookbook.png"
 
       - title: Unstructured Grid Visualization Cookbook
-        url: "https://projectpythia.org/unstructured-grid-viz-cookbook/README.html"
+        url: "https://projectpythia.org/unstructured-grid-viz-cookbook"
         image: "https://raw.githubusercontent.com/ProjectPythia/unstructured-grid-viz-cookbook/main/thumbnail.png"
 
   - title: "CUPiD"
